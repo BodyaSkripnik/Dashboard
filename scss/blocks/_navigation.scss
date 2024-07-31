@@ -1,0 +1,41 @@
+.navigation {
+  width: 306px;
+
+  padding: 35px 0 0 31px;
+  background: #ffff;
+}
+
+.navigation__wrapper {
+  margin-top: 542px;
+  display: flex;
+  gap: 12px;
+  padding-bottom: 76px;
+}
+
+.navigation__img {
+  max-width: 42px;
+  border-radius: 50%;
+}
+
+.navigation__name {
+  font-size: 14px;
+}
+
+.navigation__speciality {
+  font-size: 12px;
+  color: #757575;
+}
+
+@media (max-width: 800px) {
+  .navigation {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .navigation__wrapper {
+    margin-top: 255px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+  }
+}

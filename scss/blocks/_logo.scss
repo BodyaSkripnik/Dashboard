@@ -1,0 +1,39 @@
+.logo-container {
+  display: flex;
+  width: 221px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 37px;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.logo__text {
+  margin: 0;
+  font-size: 26px;
+  color: #000000;
+  span {
+    font-size: 10px;
+    color: #838383;
+    margin-left: 4px;
+  }
+}
+
+
+@media (max-width: 800px) {
+ 
+  .logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo__text {
+    display: none;
+  }
+  
+}
+

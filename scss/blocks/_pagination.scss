@@ -1,0 +1,30 @@
+.pagination-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.entries-info{
+    font-size: 14px;
+}
+
+.page-link {
+    color: #404B52;
+    font-size: 12px;
+    margin: 0 6px;
+    text-decoration: none;
+    background: #EEEEEE;
+    border-radius: 5px;
+    padding: 6px 9px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.page-link:hover {
+    background-color: #5932EA;
+    color: #FFFFFF;
+}
+
+.dots {
+    padding: 6px 0 0 0;
+}
